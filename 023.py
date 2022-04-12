@@ -5,6 +5,7 @@ length = len(phrase)
 num1 = int(input("Please input a start number: "))
 num2 = int(input("Please input an end number: "))
 
+#print command
 line = (phrase[num1:num2])
 
 print(line)

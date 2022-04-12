@@ -5,4 +5,5 @@ surname = str(input("Please enter your surname in small letters: "))
 upperfirstname = str.upper(firstname)
 uppersurname = str.upper(surname)
 
+#print command
 print("Your name is",upperfirstname, uppersurname)
