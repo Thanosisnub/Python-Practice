@@ -1,5 +1,7 @@
+#declaration of variables
 age = int(input("Please enter your age!: "))
 
+#if command
 if age >= 18:
     print("You can vote!")
 elif age == 17:

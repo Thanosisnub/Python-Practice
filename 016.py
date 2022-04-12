@@ -1,7 +1,8 @@
+#declaration of variables
 rain = input("Is it raining?: ")
 rain = str.lower(rain)
 
-
+#if command
 if rain == "yes":
     wind = input("Is it windy?: ")
     wind = str.lower(wind)

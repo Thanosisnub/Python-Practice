@@ -1,3 +1,4 @@
+#declaration of variables
 firstname = str(input("Please enter your firstname is small letters: "))
 surname = str(input("Please enter your surname in small letters: "))
 

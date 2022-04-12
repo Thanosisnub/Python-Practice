@@ -1,3 +1,4 @@
+#declaration of variables
 input = input("Please give any word: ")
 first = input[0]
 length = len(input)

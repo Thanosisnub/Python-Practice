@@ -1,3 +1,4 @@
+#declaration of variables
 phrase = str(input("Please input the first line of a nursery rhyme: "))
 length = len(phrase)
 
