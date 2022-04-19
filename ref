@@ -1,0 +1,28 @@
+""" PALINDROME NUMBERS BETWEEN 10 TO 1000"""
+
+"""Number = 1000
+print ("Palindrome Numbers between 10 to %d are:- " %(Number))
+for num in range (10, Number + 1):
+    A = num
+    Reverse = 0
+    while (A > 0):
+        Remainder = A % 10
+        Reverse = (Reverse * 10) + Remainder
+        A = A //10
+    if (num == Reverse):
+        print ("%d"%num)"""
+
+
+# Code for the palindrome
+
+Number = int(input("Enter a number: "))
+A = Number
+Reverse = 0
+while(Number > 0):
+    Remainder = Number % 10
+    Reverse = Reverse * 10 + Remainder
+    Number = Number // 10
+if (A==Reverse):
+    print("The number is a palindrome")
+else:
+    print("The number isn't a palindrome")
